@@ -1,10 +1,13 @@
 # service-hour-submitter
 This is a script to automatically submit service hours from the midwest template for service hours as a google sheet spreadsheet to myodphi. Alpha Alpha finds it easier to keep track of service in a spreadsheet, so this script was written so we don't have to manually transfer the hours over to the site at the end of each quarter. This script may not work with newer iterations of the site. The last time this script was tested was in March of 2019.
 
-### Requirements
+## Requirements
 Install Python 3
+
 [Download for Mac](https://docs.python-guide.org/starting/install3/osx/#install3-osx)
+
 [Download for Windows](https://docs.python-guide.org/starting/install3/win/#install3-windows)
+
 [Download for Linux](https://docs.python-guide.org/starting/install3/linux/#install3-linux)
 
 Once installed, clone or download this project, then navigate to where you cloned/downloaded the project and run the following commands:
@@ -17,7 +20,7 @@ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth
 Everything that is showing up in the command line is telling you that it is downloading and installing python modules. It is not breaking your computer : )
 
 
-### Usage
+## Usage
 In `config.json`, enter all of the following information:
 - **username** used for myodphi (i.e. "odphi_username": "rojaswestall@gmail.com")
 - **password** used for myodphi (i.e. "odphi_password": "password1234")
@@ -44,13 +47,13 @@ python3 submitter.py
 Check to make sure that all the hours were submitted by getting a report of your hours on myodphi!
 
 
-### Assumptions
+## Assumptions
 - The hours for each individual bro are stored in a tab called "Hours"
 - The dates of the service hours take the format "mm/dd/yyyy"
 - The format of the sheet follows this [template](https://docs.google.com/spreadsheets/d/1dkmCiNWbt00yAwdC3qgnSNqTY2I8pQ9Vt1f3GGHy5Vo/edit#gid=1403236818)
 
 
-### Options
+## Options
 The following options are available for a user to select from on the myodphi site. You should choose from the following and copy your choice *exactly* into the `config.json` file.
 
 Region:

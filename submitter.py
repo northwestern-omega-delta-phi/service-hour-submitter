@@ -12,7 +12,6 @@ from bs4 import BeautifulSoup
 
 # For development 
 import json
-import struct
 
 # Global Variables
 with open('config.json') as json_file:  
