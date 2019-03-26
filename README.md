@@ -1,5 +1,5 @@
 # service-hour-submitter
-This is a script to automatically submit service hours from the midwest template for service hours as a google sheet spreadsheet to myodphi. Alpha Alpha finds it easier to keep track of service in a spreadsheet, so this script was written so we don't have to manually transfer the hours over to the site at the end of each quarter. This script may not work with newer iterations of the site. The last time this script was tested was in March of 2019.
+This is a script to automatically submit service hours from the midwest google sheet template for service hours to myodphi. Alpha Alpha finds it easier to keep track of service in a spreadsheet, so this script was written so we don't have to manually transfer the hours over to the site at the end of each quarter. This script may not work with newer iterations of the site. The last time this script was tested was in March of 2019.
 
 **The API key left in the config file are read only and are left there to be used by any brothers who want to run this script**
 
