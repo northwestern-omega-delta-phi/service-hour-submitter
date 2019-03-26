@@ -193,7 +193,7 @@ def main():
             r = session.post(service_url, files = service_details)
             print("\n\nThe following has been submitted:")
             print("  Event: ", service_event["event"])
-            print("  Date: ", service_event["date"])
+            print("  Date: ", dateFormatter(service_event["date"]))
             print("  Hours: ", service_event["hours"])
         
         print("All done submitting! Check the service report page to make sure they're all there!")
