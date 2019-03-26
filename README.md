@@ -39,7 +39,7 @@ https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **Note: The region, school, semester, and year must be exactly as you would normally submit it through the service hours page on myopdhi. You can look at the options section below to see how they are listed exactly on the site**
 
-**It's important that you don't modify anything above odphi_username in the config file!**
+**Note: It's important that you don't modify anything above odphi_username in the config file!**
 
 From terminal, run the following command and you're done!
 ```
